@@ -1,8 +1,10 @@
-class Ref:
-    def __init__(self):
-        self.x = 10
-        self.y = 20
+class Customer:
+    def __init__(self.name):
+        self.name=name
 
-    def change(self):
-        self.x = 100
-        self.y = 200    
+def greet(customer):
+    print("Hello",customer.name) 
+
+cust=Customer("Nitish")
+
+greet(cust)
